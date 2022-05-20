@@ -4,6 +4,12 @@ def get_versions():
 
 versions = [
     {
+        "number": "0.0.2",
+        "features": [
+            "Debug Setup.py error",
+        ],
+    },
+    {
         "number": "0.0.1",
         "features": [
             "Separate miRNABlast from the original Genome_work_tools",

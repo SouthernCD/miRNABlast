@@ -1,6 +1,6 @@
 # coding utf8
 import setuptools
-from toolbiox.versions import get_versions
+from mirnablast.versions import get_versions
 import platform
 import sys
 
@@ -21,7 +21,7 @@ setuptools.setup(
     packages=setuptools.find_packages(),
 
     install_requires=[
-        "toolbiox>=0.0.1",
+        "ToolBiox>=0.0.1",
     ],
 
     python_requires='>=3.5',
